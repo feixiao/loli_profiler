@@ -27,8 +27,12 @@ public:
         QString compiler_ = "gcc";
         QStringList whitelist_;
         QStringList blacklist_;
+
         Settings() = default;
-//        Settings(const Settings&) = default;
+        Settings(const Settings&) = default;
+        Settings(Settings&&) = default;
+        Settings& operator=(const Settings&) = default;
+        Settings& operator=(Settings&&) = default;
     };
     static Settings ParseConfigFile();
     static bool IsNoStackMode();

@@ -29,3 +29,7 @@ set Ndk_R20_CMD="/android-ndk-r20b/ndk-build.cmd"
 build.bat
 ```
 
+### App
+```shell
+# 生成路径在：dist
+```
