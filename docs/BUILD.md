@@ -10,7 +10,10 @@
 MacOS:
 
 ```shell
+# download https://download.qt.io/archive/qt/5.14/5.14.2/
 export QT5Path=/Users/yourname/Qt5.14.1
+
+# download https://github.com/android/ndk/wiki/Unsupported-Downloads
 export Ndk_R16_CMD=/android-ndk-r16b/ndk-build
 export Ndk_R20_CMD=/android-ndk-r20b/ndk-build
 sh build.sh
