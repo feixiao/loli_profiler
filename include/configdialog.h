@@ -28,7 +28,7 @@ public:
         QStringList whitelist_;
         QStringList blacklist_;
         Settings() = default;
-        Settings(const Settings&) = default;
+//        Settings(const Settings&) = default;
     };
     static Settings ParseConfigFile();
     static bool IsNoStackMode();
