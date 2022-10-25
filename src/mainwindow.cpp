@@ -561,6 +561,8 @@ QString MainWindow::GetLastSymbolDir() const {
 void MainWindow::ConnectionFailed() {
     isConnected_ = false;
     isCapturing_ = false;
+    Print("ConnectionFailed");
+
     if (screenshotProcess_->IsRunning())
         screenshotProcess_->Process()->kill();
     stacktraceProcess_->Disconnect();

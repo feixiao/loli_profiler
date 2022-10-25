@@ -40,7 +40,7 @@ LoliProfiler supports profiling debuggable applications out of box. And offers e
 * [LZ4](https://github.com/lz4/lz4)
 * [Chromium](https://chromium.googlesource.com/chromium/src/base/+/master/debug/stack_trace.cc)
 * [JDWP injector](https://koz.io/library-injection-for-debuggable-android-apps/)
-* [XHook](https://github.com/iqiyi/xHook)
+* [XHook](https://github.com/iqiyi/xHook) 限定了操作系统为Android 4-10 
 * [Android native memory leak solution](https://developer.aliyun.com/article/708672)
 * [YMTreeMap](https://github.com/yahoo/YMTreeMap)
 * Icons [smashicons](https://www.flaticon.com/authors/smashicons), [freepik](https://www.flaticon.com/authors/freepik)
